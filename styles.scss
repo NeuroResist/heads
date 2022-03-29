@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.left-block{
+  &__investors-text{
+    font-size: 25px;
+    width: 50%;
+  }
+  &__introducing-text{
+    font-size: 25px;
+    width: 50%;
+  }
+  &__nfts{
+
+  }
+  &__nfts-text{
+    font-family: 'Inter', sans-serif;
+    line-height: 100%;
+    font-size: 185px;
+  }
+}
+.first-block{
+  display: flex;
+  padding-top: 96px;
+  &__block-under-header{
+    display: flex;
+    margin-bottom: 124px;
+  }
+}
+.line{
+  height: 12px;
+  width: 100%;
+  background-color: red;
+}
+.container{
+  max-width: 1128px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px
+}
+//font-family: 'adamant-bg-2', sans-serif;
+.heads{
+  &__BucketHeadz{
+    position: relative;
+    font-family: 'stinger', sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: -2px;
+    font-style: normal;
+    font-size: 90px;
+  }
+
+}

@@ -19,6 +19,11 @@
     line-height: 100%;
     font-size: 185px;
   }
+  &__roaming-solana{
+  }
+}
+.first-block{
+  background-image: url(img/bcg.png);
 }
 .first-block{
   display: flex;
@@ -32,6 +37,7 @@
   height: 12px;
   width: 100%;
   background-color: red;
+  margin-bottom: 5px;
 }
 .container{
   max-width: 1128px;
@@ -44,12 +50,52 @@
 .heads{
   &__BucketHeadz{
     position: relative;
-    font-family: 'stinger', sans-serif;
+    font-family: 'stinger-fit-2', sans-serif;
     font-weight: bold;
     line-height: 100%;
     letter-spacing: -2px;
     font-style: normal;
     font-size: 90px;
   }
-
+}
+.right-block-img{
+  position: absolute;
+}
+.right-block{
+  position: relative;
+  &__1{
+    left: 48px;
+    height: 180px;
+    width: 200px;
+  }
+  &__2{
+    left: 410px;
+    height: 180px;
+    width: 170px;
+    top: 320px;
+  }
+  &__3{
+    top: 216px;
+    left: 75px;
+    height: 124px;
+    width: 120px;
+  }
+  &__4{
+    top: 180px;
+    left: 422px;
+    height: 121px;
+    width: 121px;
+  }
+  &__5{
+    top: 89px;
+    left: 241px;
+    height: 159px;
+    width: 151px;
+  }
+  &__6{
+    top: 263px;
+    left: 189px;
+    height: 193px;
+    width: 200px;
+  }
 }

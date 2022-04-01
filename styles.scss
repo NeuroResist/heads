@@ -1,13 +1,6 @@
 @import url("fonts/adamant/stylesheet.css");
 @import url("fonts/stinger/stylesheet.css");
 
-@font-face {
-  font-family: 'Stinger-Bold';
-  src: url('fonts/adamant-2/Stinger-Bold.ttf');
-  font-weight: 300;
-  font-style: italic;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +9,8 @@ body{
   background-color: #d0d0d0;
 }
 .left-block{
+  color: white;
+
   &__investors-text{
     font-size: 25px;
     width: 50%;
@@ -30,10 +25,15 @@ body{
     font-size: 185px;
   }
   &__roaming-solana{
+    line-height: 50px;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: -3.5px;
   }
 }
 .first-block-wrapper{
-  background-color: red;
+  background-image: url("https://i.ibb.co/5vL3z5Z/image.png");
+  background-size: contain;
   height: 700px;
 }
 .second-block-wrapper{
@@ -65,7 +65,8 @@ body{
 .heads{
   &__BucketHeadz{
     position: relative;
-    font-family: 'Stinger-Bold';
+    top: -19px;
+    font-family: 'Stinger';
     line-height: 100%;
     letter-spacing: -2px;
     font-size: 90px;

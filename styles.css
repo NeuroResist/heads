@@ -1,3 +1,11 @@
+@import url("fonts/adamant/stylesheet.css");
+@import url("fonts/stinger/stylesheet.css");
+@font-face {
+  font-family: "Stinger-Bold";
+  src: url("fonts/adamant-2/Stinger-Bold.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
 * {
   margin: 0;
   padding: 0;
@@ -56,11 +64,9 @@ body {
 
 .heads__BucketHeadz {
   position: relative;
-  font-family: "stinger-fit-2", sans-serif;
-  font-weight: bold;
+  font-family: "Stinger-Bold";
   line-height: 100%;
   letter-spacing: -2px;
-  font-style: normal;
   font-size: 90px;
 }
 
@@ -275,6 +281,7 @@ body {
 .third-block-wrapper {
   background-color: rebeccapurple;
   height: 760px;
+  position: relative;
 }
 
 .third-block {
@@ -283,11 +290,27 @@ body {
   border-radius: 24px 24px 24px 24px/24px 24px 24px 24px;
   box-shadow: 21px 21px 22px -5px rgba(34, 60, 80, 0.2);
   min-height: 650px;
+  overflow: hidden;
 }
 .third-block__header {
-  text-align: center;
+  font-family: "PF Adamant Pro", sans-serif;
+  font-weight: bold;
+  font-style: normal;
   font-size: 100px;
+  text-align: center;
   padding-top: 14px;
+}
+.third-block__img-20 {
+  position: absolute;
+  right: 74px;
+  top: 168px;
+  z-index: 0;
+}
+.third-block__img-2 {
+  position: absolute;
+  left: 202px;
+  bottom: 29px;
+  z-index: 0;
 }
 .third-block__img {
   width: 488px;
@@ -295,9 +318,16 @@ body {
   margin-bottom: 14px;
   margin-top: 45px;
   margin-left: 51px;
+  z-index: 2;
 }
 .third-block__wrapper {
   display: flex;
+}
+.third-block__green-circle {
+  position: absolute;
+  top: 157px;
+  left: -92px;
+  z-index: 1;
 }
 
 .right-block-with-text {
@@ -320,12 +350,19 @@ body {
 .fourth-block-wrapper {
   height: 764px;
   background-color: blue;
+  position: relative;
 }
 
 .fourth-block__header {
   font-size: 60px;
   padding-top: 94px;
   margin-bottom: 70px;
+}
+.fourth-block__img-26 {
+  position: absolute;
+  left: 74px;
+  top: 688px;
+  z-index: 2;
 }
 .fourth-block__headers {
   font-size: 35px;
@@ -338,15 +375,28 @@ body {
 
 .fifth-block-wrapper {
   background-color: green;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 .fifth-block {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .fifth-block__img {
   width: 36px;
+}
+.fifth-block__img-27 {
+  position: absolute;
+  left: 199px;
+  top: 242px;
+}
+.fifth-block__img-2 {
+  position: absolute;
+  right: 180px;
+  top: 174px;
 }
 .fifth-block__links {
   display: flex;
@@ -365,7 +415,7 @@ body {
   border-radius: 44px 44px 44px 44px/44px 44px 44px 44px;
   border: none;
   margin-bottom: 26px;
-  background-color: yellow;
+  background: linear-gradient(45deg, #ffd64c, #fffc40);
   font-size: 19px;
   width: 230px;
   height: 90px;
@@ -374,8 +424,8 @@ body {
 .fifth-block__img {
   margin: 0 5px;
 }
-.fifth-block__left-links {
-  margin-right: 40px;
+.fifth-block__right-links {
+  margin-left: 47px;
 }
 .fifth-block__imgs {
   display: flex;
@@ -387,8 +437,18 @@ body {
   width: 45px;
 }
 
+.disc {
+  width: 40px;
+}
+
+.ME {
+  padding-left: 6px;
+  width: 40px;
+}
+
 .inst {
-  width: 24px;
+  width: 26px;
+  margin-left: 18px;
 }
 
 .logo {

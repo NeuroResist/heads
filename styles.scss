@@ -244,13 +244,12 @@ $top6: 263px;
   }
 }
 .third-block-wrapper{
-  background-color: rebeccapurple;
   min-height: 760px;
   position: relative;
 }
 .third-block{
   position: relative;
-  background-color: red;
+  background-color: #ffffff;
   border-radius: 24px 24px 24px 24px / 24px 24px 24px 24px;
   box-shadow: 21px 21px 22px -5px rgba(34, 60, 80, 0.2);
   min-height: 650px;
@@ -314,8 +313,9 @@ $top6: 263px;
 
 
 .fourth-block-wrapper{
+  color: white;
+  background-color: black;
   min-height: 764px;
-  background-color: blue;
   position: relative;
 }
 .fourth-block{
@@ -341,7 +341,6 @@ $top6: 263px;
 }
 
 .fifth-block-wrapper{
-  background-color: green;
 padding-bottom: 30px;
   position: relative;
 }

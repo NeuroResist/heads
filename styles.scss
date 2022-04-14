@@ -10,7 +10,7 @@ body{
 }
 .left-block{
   color: white;
-
+  margin-left: 86px;
   &__investors-text{
     font-size: 25px;
     width: 50%;
@@ -24,17 +24,32 @@ body{
     line-height: 100%;
     font-size: 185px;
   }
+  &__1441NFT{
+    width: 425px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
   &__roaming-solana{
-    line-height: 50px;
+    line-height: 90px;
     font-size: 65px;
     text-transform: uppercase;
     letter-spacing: -3.5px;
+    margin-bottom: 77px;
+  }
+  &__button{
+    width: 354px;
+    height: 88px;
+    border-radius: 20px;
+    color: black;
+    font-size: 29px;
+    border-style: none;
   }
 }
+//TODO Заменить потом все пути с локалхост на относительные
 .first-block-wrapper{
-  background-image: url('./img/фон 1.jpg');
+  background-image: url('http://localhost:63342/untitled19/img/фон 1.png');
   background-size: cover;
-  height: 700px;
+  min-height: 773px;
 }
 .second-block-wrapper{
   min-height: 855px;
@@ -43,6 +58,7 @@ body{
 .first-block{
   display: flex;
   padding-top: 96px;
+  justify-content: center;
   &__block-under-header{
     display: flex;
     margin-bottom: 124px;
@@ -75,11 +91,11 @@ body{
 .right-block-img{
   position: absolute;
 }
-$left1: 48px;
-$left2: 410px;
+$left1: -24px;
+$left2: 356px;
 $left3: 75px;
 $top1: 0px;
-$top2: 320px;
+$top2: 188px;
 $top3: 216px;
 $top4: 180px;
 $top5: 89px;
@@ -88,83 +104,106 @@ $top6: 263px;
 
 .right-block{
   position: relative;
+  width: 50%;
+
   &__1{
     animation: head1 3s ease-in-out infinite;
     left: $left1;
-    height: 180px;
-    width: 200px;
+    top: 42px;
+    height: 150px;
+    width: 163px;
   }
   &__2{
     animation: head2 3s ease-in-out infinite;
     left: $left2;
-    height: 180px;
-    width: 170px;
+    height: 144px;
+    width: 136px;
     top: $top2;
   }
   &__3{
     animation: head3 3s ease-in-out infinite;
-    top: $top3;
-    left: $left3;
-    height: 124px;
-    width: 120px;
+    top: 235px;
+    left: -20px;
+    height: 132px;
+    width: 126px;
   }
   &__4{
     animation: head4 3s ease-in-out infinite;
-
-    top: 180px;
-    left: 422px;
-    height: 121px;
-    width: 121px;
+    top: 15px;
+    left: 357px;
+    height: 143px;
+    width: 143px;
   }
   &__5{
     animation: head5 3s ease-in-out infinite;
 
-    top: 89px;
-    left: 241px;
-    height: 159px;
-    width: 151px;
+    top: 31px;
+    height: 142px;
+    width: 132px;
+    left: 181px;
   }
   &__6{
     animation: head6 3s ease-in-out infinite;
 
-    top: 263px;
-    left: 189px;
-    height: 193px;
-    width: 200px;
+    top: 213px;
+    left: 158px;
+    height: 155px;
+    width: 159px;
+  }
+  &__7{
+    animation: head6 3s ease-in-out infinite;
+    top: 386px;
+    left: -40px;
+    height: 147px;
+    width: 138px;
+  }
+  &__8{
+    animation: head6 3s ease-in-out infinite;
+    top: 389px;
+    left: 159px;
+    height: 153px;
+    width: 134px;
+  }
+  &__9{
+    animation: head6 3s ease-in-out infinite;
+    top: 371px;
+    left: 331px;
+    height: 145px;
+    width: 162px;
   }
 }
-// Keyframes
-@keyframes head1 {
-  0% { top: 0; position: absolute}
-  50% { top: 26px; position: absolute}
-  100% { top: 0; position: absolute}
-}
-@keyframes head2 {
-  0% { top: $top2; position: absolute}
-  50% { top: $top2+14px; position: absolute}
-  100% { top: $top2; position: absolute}
-}
-@keyframes head3 {
-  0% { top: $top3; position: absolute}
-  50% { top: $top3+10px; position: absolute}
-  100% { top: $top3; position: absolute}
-}
-@keyframes head4 {
-  0% { top: $top4; position: absolute}
-  50% { top: $top4+32px; position: absolute}
-  100% { top: $top4; position: absolute}
-}
-@keyframes head5 {
-  0% { top: $top5; position: absolute}
-  50% { top: $top5+14px; position: absolute}
-  100% { top: $top5; position: absolute}
-}
-@keyframes head6 {
-  0% { top: $top6; position: absolute}
-  50% { top: $top6+20px; position: absolute}
-  100% { top: $top6; position: absolute}
-}
-
+//// Keyframes
+//@keyframes head1 {
+//  0% { top: 0; position: absolute}
+//  50% { top: 26px; position: absolute}
+//  100% { top: 0; position: absolute}
+//}
+//@keyframes head2 {
+//  0% { top: $top2; position: absolute}
+//  50% { top: $top2+14px; position: absolute}
+//  100% { top: $top2; position: absolute}
+//}
+//@keyframes head3 {
+//  0% { top: $top3; position: absolute}
+//  50% { top: $top3+10px; position: absolute}
+//  100% { top: $top3; position: absolute}
+//}
+//@keyframes head4 {
+//  0% { top: $top4; position: absolute}
+//  50% { top: $top4+32px; position: absolute}
+//  100% { top: $top4; position: absolute}
+//}
+//@keyframes head5 {
+//  0% { top: $top5; position: absolute}
+//  50% { top: $top5+14px; position: absolute}
+//  100% { top: $top5; position: absolute}
+//}
+//@keyframes head6 {
+//  0% { top: $top6; position: absolute}
+//  50% { top: $top6+20px; position: absolute}
+//  100% { top: $top6; position: absolute}
+//}
+//
 
 
 .second-block{

@@ -147,28 +147,27 @@ $top6: 263px;
   }
   &__6{
     animation: head6 3s ease-in-out infinite;
-
     top: 213px;
     left: 158px;
     height: 155px;
     width: 159px;
   }
   &__7{
-    animation: head6 3s ease-in-out infinite;
+    animation: head7 3s ease-in-out infinite;
     top: 386px;
     left: -40px;
     height: 147px;
     width: 138px;
   }
   &__8{
-    animation: head6 3s ease-in-out infinite;
+    animation: head8 3s ease-in-out infinite;
     top: 389px;
     left: 159px;
     height: 153px;
     width: 134px;
   }
   &__9{
-    animation: head6 3s ease-in-out infinite;
+    animation: head9 3s ease-in-out infinite;
     top: 371px;
     left: 331px;
     height: 145px;
@@ -176,37 +175,52 @@ $top6: 263px;
   }
 }
 //// Keyframes
-//@keyframes head1 {
-//  0% { top: 0; position: absolute}
-//  50% { top: 26px; position: absolute}
-//  100% { top: 0; position: absolute}
-//}
-//@keyframes head2 {
-//  0% { top: $top2; position: absolute}
-//  50% { top: $top2+14px; position: absolute}
-//  100% { top: $top2; position: absolute}
-//}
-//@keyframes head3 {
-//  0% { top: $top3; position: absolute}
-//  50% { top: $top3+10px; position: absolute}
-//  100% { top: $top3; position: absolute}
-//}
-//@keyframes head4 {
-//  0% { top: $top4; position: absolute}
-//  50% { top: $top4+32px; position: absolute}
-//  100% { top: $top4; position: absolute}
-//}
-//@keyframes head5 {
-//  0% { top: $top5; position: absolute}
-//  50% { top: $top5+14px; position: absolute}
-//  100% { top: $top5; position: absolute}
-//}
-//@keyframes head6 {
-//  0% { top: $top6; position: absolute}
-//  50% { top: $top6+20px; position: absolute}
-//  100% { top: $top6; position: absolute}
-//}
-//
+@keyframes head1 {
+  0% { top: 0; position: absolute}
+  50% { top: 26px; position: absolute}
+  100% { top: 0; position: absolute}
+}
+@keyframes head2 {
+  0% { top: $top2; position: absolute}
+  50% { top: $top2+14px; position: absolute}
+  100% { top: $top2; position: absolute}
+}
+@keyframes head3 {
+  0% { top: 235px; position: absolute}
+  50% { top: 235px+10px; position: absolute}
+  100% { top: 235px; position: absolute}
+}
+@keyframes head4 {
+  0% { top: 15px; position: absolute}
+  50% { top: 15px+32px; position: absolute}
+  100% { top: 15px; position: absolute}
+}
+@keyframes head5 {
+  0% { top: 31px; position: absolute}
+  50% { top: 31px+14px; position: absolute}
+  100% { top: 31px; position: absolute}
+}
+@keyframes head6 {
+  0% { top: 213px; position: absolute}
+  50% { top: 213px+20px; position: absolute}
+  100% { top: 213px; position: absolute}
+}
+@keyframes head7 {
+  0% { top: 386px; position: absolute}
+  50% { top: 386px+40px; position: absolute}
+  100% { top: 386px; position: absolute}
+}
+@keyframes head8 {
+  0% { top: 389px; position: absolute}
+  50% { top: 389px+25px; position: absolute}
+  100% { top: 389px; position: absolute}
+}
+@keyframes head9 {
+  0% { top: 371px; position: absolute}
+  50% { top: 371px+30px; position: absolute}
+  100% { top: 371px; position: absolute}
+}
+
 
 
 .second-block{

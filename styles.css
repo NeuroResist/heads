@@ -147,27 +147,153 @@ body {
   width: 159px;
 }
 .right-block__7 {
-  animation: head6 3s ease-in-out infinite;
+  animation: head7 3s ease-in-out infinite;
   top: 386px;
   left: -40px;
   height: 147px;
   width: 138px;
 }
 .right-block__8 {
-  animation: head6 3s ease-in-out infinite;
+  animation: head8 3s ease-in-out infinite;
   top: 389px;
   left: 159px;
   height: 153px;
   width: 134px;
 }
 .right-block__9 {
-  animation: head6 3s ease-in-out infinite;
+  animation: head9 3s ease-in-out infinite;
   top: 371px;
   left: 331px;
   height: 145px;
   width: 162px;
 }
 
+@keyframes head1 {
+  0% {
+    top: 0;
+    position: absolute;
+  }
+  50% {
+    top: 26px;
+    position: absolute;
+  }
+  100% {
+    top: 0;
+    position: absolute;
+  }
+}
+@keyframes head2 {
+  0% {
+    top: 188px;
+    position: absolute;
+  }
+  50% {
+    top: 202px;
+    position: absolute;
+  }
+  100% {
+    top: 188px;
+    position: absolute;
+  }
+}
+@keyframes head3 {
+  0% {
+    top: 235px;
+    position: absolute;
+  }
+  50% {
+    top: 245px;
+    position: absolute;
+  }
+  100% {
+    top: 235px;
+    position: absolute;
+  }
+}
+@keyframes head4 {
+  0% {
+    top: 15px;
+    position: absolute;
+  }
+  50% {
+    top: 47px;
+    position: absolute;
+  }
+  100% {
+    top: 15px;
+    position: absolute;
+  }
+}
+@keyframes head5 {
+  0% {
+    top: 31px;
+    position: absolute;
+  }
+  50% {
+    top: 45px;
+    position: absolute;
+  }
+  100% {
+    top: 31px;
+    position: absolute;
+  }
+}
+@keyframes head6 {
+  0% {
+    top: 213px;
+    position: absolute;
+  }
+  50% {
+    top: 233px;
+    position: absolute;
+  }
+  100% {
+    top: 213px;
+    position: absolute;
+  }
+}
+@keyframes head7 {
+  0% {
+    top: 386px;
+    position: absolute;
+  }
+  50% {
+    top: 426px;
+    position: absolute;
+  }
+  100% {
+    top: 386px;
+    position: absolute;
+  }
+}
+@keyframes head8 {
+  0% {
+    top: 389px;
+    position: absolute;
+  }
+  50% {
+    top: 414px;
+    position: absolute;
+  }
+  100% {
+    top: 389px;
+    position: absolute;
+  }
+}
+@keyframes head9 {
+  0% {
+    top: 371px;
+    position: absolute;
+  }
+  50% {
+    top: 401px;
+    position: absolute;
+  }
+  100% {
+    top: 371px;
+    position: absolute;
+  }
+}
 .second-block__header {
   font-size: 75px;
   margin-bottom: 64px;

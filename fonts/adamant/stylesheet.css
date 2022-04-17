@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-ExtraBold.eot');
+    src: local('PF Adamant Pro ExtraBold'), local('PFAdamantPro-ExtraBold'),
+        url('PFAdamantPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-ExtraBold.woff2') format('woff2'),
+        url('PFAdamantPro-ExtraBold.woff') format('woff'),
+        url('PFAdamantPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-BoldItalic.eot');
+    src: local('PF Adamant Pro Bold Italic'), local('PFAdamantPro-BoldItalic'),
+        url('PFAdamantPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-BoldItalic.woff2') format('woff2'),
+        url('PFAdamantPro-BoldItalic.woff') format('woff'),
+        url('PFAdamantPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-Medium.eot');
+    src: local('PF Adamant Pro Medium'), local('PFAdamantPro-Medium'),
+        url('PFAdamantPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-Medium.woff2') format('woff2'),
+        url('PFAdamantPro-Medium.woff') format('woff'),
+        url('PFAdamantPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-SemiBoldItalic.eot');
+    src: local('PF Adamant Pro SemiBold Italic'), local('PFAdamantPro-SemiBoldItalic'),
+        url('PFAdamantPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-SemiBoldItalic.woff2') format('woff2'),
+        url('PFAdamantPro-SemiBoldItalic.woff') format('woff'),
+        url('PFAdamantPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-Light.eot');
+    src: local('PF Adamant Pro Light'), local('PFAdamantPro-Light'),
+        url('PFAdamantPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-Light.woff2') format('woff2'),
+        url('PFAdamantPro-Light.woff') format('woff'),
+        url('PFAdamantPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-ExtraBoldItalic.eot');
+    src: local('PF Adamant Pro ExtraBold Italic'), local('PFAdamantPro-ExtraBoldItalic'),
+        url('PFAdamantPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('PFAdamantPro-ExtraBoldItalic.woff') format('woff'),
+        url('PFAdamantPro-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro.eot');
+    src: local('PF Adamant Pro'), local('PFAdamantPro'),
+        url('PFAdamantPro.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro.woff2') format('woff2'),
+        url('PFAdamantPro.woff') format('woff'),
+        url('PFAdamantPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-SemiBold.eot');
+    src: local('PF Adamant Pro SemiBold'), local('PFAdamantPro-SemiBold'),
+        url('PFAdamantPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-SemiBold.woff2') format('woff2'),
+        url('PFAdamantPro-SemiBold.woff') format('woff'),
+        url('PFAdamantPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-Italic.eot');
+    src: local('PF Adamant Pro Italic'), local('PFAdamantPro-Italic'),
+        url('PFAdamantPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-Italic.woff2') format('woff2'),
+        url('PFAdamantPro-Italic.woff') format('woff'),
+        url('PFAdamantPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-Bold.eot');
+    src: local('PF Adamant Pro Bold'), local('PFAdamantPro-Bold'),
+        url('PFAdamantPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-Bold.woff2') format('woff2'),
+        url('PFAdamantPro-Bold.woff') format('woff'),
+        url('PFAdamantPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-LightItalic.eot');
+    src: local('PF Adamant Pro Light Italic'), local('PFAdamantPro-LightItalic'),
+        url('PFAdamantPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-LightItalic.woff2') format('woff2'),
+        url('PFAdamantPro-LightItalic.woff') format('woff'),
+        url('PFAdamantPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Adamant Pro';
+    src: url('PFAdamantPro-MediumItalic.eot');
+    src: local('PF Adamant Pro Medium Italic'), local('PFAdamantPro-MediumItalic'),
+        url('PFAdamantPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFAdamantPro-MediumItalic.woff2') format('woff2'),
+        url('PFAdamantPro-MediumItalic.woff') format('woff'),
+        url('PFAdamantPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

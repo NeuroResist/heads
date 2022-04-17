@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Regular.eot');
+    src: local('Stinger'), local('Stinger-Regular'),
+        url('Stinger-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Regular.woff2') format('woff2'),
+        url('Stinger-Regular.woff') format('woff'),
+        url('Stinger-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Light.eot');
+    src: local('Stinger Light'), local('Stinger-Light'),
+        url('Stinger-Light.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Light.woff2') format('woff2'),
+        url('Stinger-Light.woff') format('woff'),
+        url('Stinger-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stinger Variable';
+    src: url('StingerVariable.eot');
+    src: local('Stinger Variable'), local('StingerVariable'),
+        url('StingerVariable.eot?#iefix') format('embedded-opentype'),
+        url('StingerVariable.woff2') format('woff2'),
+        url('StingerVariable.woff') format('woff'),
+        url('StingerVariable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-LightItalic.eot');
+    src: local('Stinger Light Italic'), local('Stinger-LightItalic'),
+        url('Stinger-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-LightItalic.woff2') format('woff2'),
+        url('Stinger-LightItalic.woff') format('woff'),
+        url('Stinger-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-ThinItalic.eot');
+    src: local('Stinger Thin Italic'), local('Stinger-ThinItalic'),
+        url('Stinger-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-ThinItalic.woff2') format('woff2'),
+        url('Stinger-ThinItalic.woff') format('woff'),
+        url('Stinger-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Thin.eot');
+    src: local('Stinger Thin'), local('Stinger-Thin'),
+        url('Stinger-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Thin.woff2') format('woff2'),
+        url('Stinger-Thin.woff') format('woff'),
+        url('Stinger-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stinger Variable';
+    src: url('StingerVariableItalic.eot');
+    src: local('Stinger Variable Italic'), local('StingerVariableItalic'),
+        url('StingerVariableItalic.eot?#iefix') format('embedded-opentype'),
+        url('StingerVariableItalic.woff2') format('woff2'),
+        url('StingerVariableItalic.woff') format('woff'),
+        url('StingerVariableItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-BoldItalic.eot');
+    src: local('Stinger Bold Italic'), local('Stinger-BoldItalic'),
+        url('Stinger-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-BoldItalic.woff2') format('woff2'),
+        url('Stinger-BoldItalic.woff') format('woff'),
+        url('Stinger-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Italic.eot');
+    src: local('Stinger Italic'), local('Stinger-Italic'),
+        url('Stinger-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Italic.woff2') format('woff2'),
+        url('Stinger-Italic.woff') format('woff'),
+        url('Stinger-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-HeavyItalic.eot');
+    src: local('Stinger Heavy Italic'), local('Stinger-HeavyItalic'),
+        url('Stinger-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-HeavyItalic.woff2') format('woff2'),
+        url('Stinger-HeavyItalic.woff') format('woff'),
+        url('Stinger-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Heavy.eot');
+    src: local('Stinger Heavy'), local('Stinger-Heavy'),
+        url('Stinger-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Heavy.woff2') format('woff2'),
+        url('Stinger-Heavy.woff') format('woff'),
+        url('Stinger-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('Stinger-Bold.eot');
+    src: local('Stinger Bold'), local('Stinger-Bold'),
+        url('Stinger-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Stinger-Bold.woff2') format('woff2'),
+        url('Stinger-Bold.woff') format('woff'),
+        url('Stinger-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

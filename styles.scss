@@ -42,7 +42,9 @@ body{
     border-radius: 20px;
     color: black;
     font-size: 29px;
+    background: linear-gradient(45deg, #ffd64c, #fffc40);;
     border-style: none;
+    cursor: pointer;
   }
 }
 //TODO Заменить потом все пути с локалхост на относительные
@@ -357,6 +359,7 @@ $top6: 263px;
 
 
 .fourth-block-wrapper{
+  overflow: hidden;
   color: white;
   background-image: url('http://localhost:63342/untitled19/img/фон с ноутбуком.png');
   background-size: cover;

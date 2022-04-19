@@ -446,7 +446,7 @@ body {
 .fourth-block-wrapper {
   overflow: hidden;
   color: white;
-  background-image: url("http://localhost:63342/untitled19/img/фон с ноутбуком.png");
+  background-image: url("http://localhost:63342/untitled19/img/фон с ноутом.png");
   background-size: cover;
   min-height: 811px;
   position: relative;
@@ -576,7 +576,7 @@ body {
   align-items: center;
 }
 
-.fifth-block__img-2-mobile, .fifth-block__img-27-mobile {
+.fifth-block__img-2-mobile, .fifth-block__img-27-mobile, .fifth-block__img-28-mobile, .fifth-block__img-26-mobile {
   display: none;
 }
 
@@ -799,7 +799,7 @@ body {
       position: absolute;
     }
     50% {
-      top: -6px;
+      top: 10px;
       position: absolute;
     }
     100% {
@@ -883,7 +883,7 @@ body {
       position: absolute;
     }
     50% {
-      top: 227px;
+      top: 207px;
       position: absolute;
     }
     100% {
@@ -897,7 +897,7 @@ body {
       position: absolute;
     }
     50% {
-      top: 214px;
+      top: 204px;
       position: absolute;
     }
     100% {
@@ -1046,6 +1046,22 @@ body {
   .third-block .right-block-with-text__2 {
     margin: 0;
   }
+
+  .right-block-with-text__3 {
+    margin-bottom: 30px;
+  }
+
+  .third-block-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .third-block__green-circle-mobile {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    z-index: 0;
+  }
 }
 @media screen and (max-width: 448px) {
   .third-block__header-mobile {
@@ -1056,6 +1072,14 @@ body {
   }
 }
 @media screen and (max-width: 620px) {
+  .third-block-wrapper {
+    margin-bottom: 0;
+  }
+
+  .right-block-with-text__3 {
+    margin-bottom: 0;
+  }
+
   .third-block {
     min-height: auto;
   }
@@ -1082,7 +1106,7 @@ body {
     display: block;
     position: absolute;
     width: 100%;
-    height: 563px;
+    height: 280px;
     z-index: 0;
   }
 
@@ -1143,7 +1167,7 @@ body {
   .fourth-block__laptop-mobile {
     display: block;
     width: 500px;
-    height: 500px;
+    height: 270px;
     margin-bottom: 36px;
   }
 
@@ -1179,6 +1203,11 @@ body {
     left: -20px;
   }
 
+  .fourth-block__2 {
+    left: -2px;
+    margin-bottom: 50px;
+  }
+
   .fourth-block__text {
     margin: 0;
     padding-bottom: 36px;
@@ -1191,6 +1220,8 @@ body {
 @media screen and (max-width: 620px) {
   .fourth-block-wrapper {
     min-height: 888px;
+    margin-bottom: 40px;
+    background-image: url("http://localhost:63342/untitled19/img/фон с ноутом мобилка.png");
   }
 
   .fourth-block__laptop-mobile {
@@ -1226,22 +1257,44 @@ body {
     font-size: 55px;
   }
 
-  .fifth-block__img-2, .fifth-block__img-27 {
+  .fifth-block__button {
+    position: relative;
+  }
+
+  .fifth-block__img-2, .fifth-block__img-27, .fifth-block__img-28, .fifth-block__img-26 {
     display: none;
   }
 
   .fifth-block__img-2-mobile {
     display: block;
     position: absolute;
-    top: -4px;
-    left: 293px;
+    top: -14px;
+    left: 309px;
+  }
+
+  .fifth-block__img-26-mobile {
+    display: block;
+    position: absolute;
+    top: -175px;
+    left: -119px;
+    width: 81px;
+    height: 86px;
+  }
+
+  .fifth-block__img-28-mobile {
+    display: block;
+    position: absolute;
+    top: -189px;
+    left: 309px;
+    width: 84px;
+    height: 50px;
   }
 
   .fifth-block__img-27-mobile {
     display: block;
     position: absolute;
-    top: 64px;
-    left: -126px;
+    top: 54px;
+    left: -110px;
   }
 }
 @media screen and (max-width: 1080px) {

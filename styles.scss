@@ -1027,6 +1027,7 @@ $top6: 263px;
   }
   .fourth-block__2{
     left: -2px;
+    padding-left: 20px;
     margin-bottom: 50px;
   }
   .fourth-block__text{
@@ -1044,7 +1045,7 @@ $top6: 263px;
     background-image: url('http://localhost:63342/untitled19/img/фон с ноутом мобилка.png');
   }
   .fourth-block__laptop-mobile{
-    width: 380px;
+    width:  365px;
     height: 208px;
     margin-bottom: 30px;
   }
@@ -1057,7 +1058,8 @@ padding-left: 15px;
     padding-bottom: 54px;
   }
   .fourth-block__2{
-padding-left: 26px;
+    padding-left: 0;
+width: 370px;
   }
 .fourth-block__text{
   padding: 0;
@@ -1171,5 +1173,81 @@ padding-left: 26px;
 }
 
 
+// Анимации для Капелек
 
+.drop-1{
+  animation: drop-1 3s ease-in-out infinite;
+}
+@keyframes drop-1 {
+  0% { top: -43px; position: absolute}
+  50% { top: -43px+14px; position: absolute}
+  100% { top: -43px; position: absolute}
+}
+.drop-2{
+  animation: drop-2 3s ease-in-out infinite;
+}
+@keyframes drop-2 {
+  0% { top: -212px; position: absolute}
+  50% { top: -212px+10px; position: absolute}
+  100% { top: -212px; position: absolute}
+}
+.third-block__img-20{
+  animation: drop-3 3s ease-in-out infinite;
+}
+@keyframes drop-3 {
+  0% { top: 275px; position: absolute}
+  50% { top: 275px+10px; position: absolute}
+  100% { top: 275px; position: absolute}
+}
+.third-block__img-2{
+  animation: drop-4 3s ease-in-out infinite;
+}
+@keyframes drop-4 {
+  0% { bottom: 176px; position: absolute}
+  50% { bottom: 176px+10px; position: absolute}
+  100% { bottom: 176px; position: absolute}
+}
+.fourth-block__img-26{
+  animation: drop-5 3s ease-in-out infinite;
+}
+@keyframes drop-5 {
+  0% { top: 688px; position: absolute}
+  50% { top: 688px+10px; position: absolute}
+  100% { top: 688px; position: absolute}
+}
 
+.fifth-block__img-27{
+  animation: drop-6 3s ease-in-out infinite;
+}
+@keyframes drop-6 {
+  0% { top: 242px; position: absolute}
+  50% { top: 242px+10px; position: absolute}
+  100% { top: 242px; position: absolute}
+}
+
+.fifth-block__img-2{
+  animation: drop-7 3s ease-in-out infinite;
+}
+@keyframes drop-7 {
+  0% { top: 174px; position: absolute}
+  50% { top: 174px+10px; position: absolute}
+  100% { top: 174px; position: absolute}
+}
+
+.fifth-block__img-26{
+  animation: drop-8 3s ease-in-out infinite;
+}
+@keyframes drop-8 {
+  0% { bottom: 287px; position: absolute}
+  50% { bottom: 287px+10px; position: absolute}
+  100% { bottom: 287px; position: absolute}
+}
+
+.fifth-block__img-28{
+  animation: drop-9 3s ease-in-out infinite;
+}
+@keyframes drop-9 {
+  0% { bottom: 316px; position: absolute}
+  50% { bottom: 316px - 10px; position: absolute}
+  100% { bottom: 316px; position: absolute}
+}

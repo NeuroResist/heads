@@ -6,7 +6,7 @@
   padding: 0;
 }
 body{
-  background-color: #d0d0d0;
+  background-color: #f2f3f4;
 }
 .left-block{
   color: white;
@@ -858,6 +858,11 @@ $top6: 263px;
 
 //Третий блок
 @media screen and (max-width: 1020px) {
+  .third-block__img {
+    align-self: center;
+    margin: 20px 0;
+    width: 33%;
+    height: 33%;}
   .third-block {
     &__header {
       font-size: 70px;
@@ -866,14 +871,15 @@ $top6: 263px;
       flex-direction: column;
     }
     &__right-block{
+      z-index: 3;
       margin: 0;
       text-align: center;
     }
     &__img{
       align-self: center;
       margin: 20px 0;
-      width: 50%;
-      height: 50%;
+      width: 33%;
+      height: 33%;
     }
     &__green-circle{
       display: none;
@@ -892,7 +898,7 @@ $top6: 263px;
     display: block;
     position: absolute;
     width: 100%;
-    height: 280px;
+    height: 47%;
     z-index: 0;
   }
 }

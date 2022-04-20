@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #d0d0d0;
+  background-color: #f2f3f4;
 }
 
 .left-block {
@@ -1024,6 +1024,13 @@ body {
   }
 }
 @media screen and (max-width: 1020px) {
+  .third-block__img {
+    align-self: center;
+    margin: 20px 0;
+    width: 33%;
+    height: 33%;
+  }
+
   .third-block__header {
     font-size: 70px;
   }
@@ -1031,14 +1038,15 @@ body {
     flex-direction: column;
   }
   .third-block__right-block {
+    z-index: 3;
     margin: 0;
     text-align: center;
   }
   .third-block__img {
     align-self: center;
     margin: 20px 0;
-    width: 50%;
-    height: 50%;
+    width: 33%;
+    height: 33%;
   }
   .third-block__green-circle {
     display: none;
@@ -1059,7 +1067,7 @@ body {
     display: block;
     position: absolute;
     width: 100%;
-    height: 280px;
+    height: 47%;
     z-index: 0;
   }
 }
